@@ -1,0 +1,16 @@
+{
+  "name": "1degreechange-playwright",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx playwright test challenge.spec.js",
+    "val": "npx playwright test challenge.spec.js --headed"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@playwright/test": "^1.44.1"
+  }
+}
